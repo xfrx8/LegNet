@@ -8,7 +8,7 @@
             "program": "${workspaceFolder}/legnet/train.py",
             "args": [
                 "--train_valid_path",
-                "/home/fengrenxu/Dataset/pycharm_prj/LegNet/data/input/data_zhou.csv",
+                "/home/fengrenxu/Dataset/pycharm_prj/LegNet/data/input/train_sequences.txt",
                 "--foldify",
                 "--delimiter",
                 "tab",
@@ -38,7 +38,7 @@
                 "--gpu",
                 "0",
                 "--model_dir",
-                "models/data_zhou",
+                "models/dream2023",
                 "--ks",
                 "7",
                 "--blocks",
