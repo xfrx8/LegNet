@@ -6,7 +6,7 @@ import os
 
 def load_full(path_from, start=0, end=17, length=None, N_contain=False):
     df = pd.read_csv(path_from, sep = "\t", header=None)
-    df = df.drop(2, axis=1)
+    # df = df.drop(2, axis=1)
     df.columns = ['seq', 'expression']
     
     if (start >= df["expression"].min()) or (end <= df["expression"].max()):
